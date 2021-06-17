@@ -37,8 +37,8 @@ print(myIndice)
 print("input: "+ inputList[myIndice])
 print("output: "+ outputList[myIndice])
 
-inputListDoc.write(str(inputList),"utf-8")
-outputListDoc.write(str(inputList),"utf-8")
+inputListDoc.write(str(inputList))
+outputListDoc.write(str(outputList))
 
 daTestDoc.close()
 inputListDoc.close()

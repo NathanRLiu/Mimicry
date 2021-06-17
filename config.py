@@ -6,4 +6,4 @@ targetID = 000000000000000000
 def getCreds():
     return(daEmail,daPassword)
 def getScope():
-    return(daChannelID,daServerID)
+    return(daChannelID,daServerID,targetID)
